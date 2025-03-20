@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Update Book
+    // Update Books
     editBookForm.addEventListener("submit", (e) => {
         e.preventDefault();
         const index = document.getElementById("edit-index").value;
